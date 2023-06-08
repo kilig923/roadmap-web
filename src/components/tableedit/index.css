@@ -1,0 +1,42 @@
+.edittable-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.edittable-toolbar .organization-button span {
+  font-size: 22px;
+}
+.edittable-toolbar .organization-page-search-container .ant-btn {
+  width: 58px;
+}
+.organization-user {
+  width: 300px;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: Monospace;
+  line-height: 45.5px;
+  color: #2a82e4;
+  text-align: left;
+  vertical-align: top;
+  margin: 20px 50px;
+}
+.word-user {
+  width: 300px;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: Monospace;
+  line-height: 45.5px;
+  color: #2a82e4;
+  text-align: left;
+  vertical-align: top;
+  margin: 20px 50px;
+}
+th.table-columns {
+  color: #808080 !important;
+  font-size: 16px !important;
+}
+.message {
+  font-size: 12px;
+  color: #808080;
+}

@@ -1,0 +1,30 @@
+.word-page-container {
+  height: 100%;
+  width: 100%;
+  padding: 20px 120px;
+}
+.word-page-search-container .ant-input-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.word-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.word-toolbar .word-button span {
+  font-size: 22px;
+}
+.word-user {
+  width: 300px;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: Monospace;
+  line-height: 45.5px;
+  color: #2a82e4;
+  text-align: left;
+  vertical-align: top;
+  margin: 20px 50px;
+}

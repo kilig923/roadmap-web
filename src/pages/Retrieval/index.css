@@ -1,0 +1,156 @@
+.search-before {
+  height: 340px;
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-self: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.retrieval-page-container {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.img-container {
+  margin-bottom: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+.img-container span {
+  display: inline-block;
+  font-size: 55px;
+  font-weight: 371px;
+  text-align: center;
+}
+.img-container img {
+  width: 141px;
+  height: 118px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.search-info {
+  font-size: 22px;
+  color: rgba(42, 130, 228, 0.6);
+}
+.search-info-key {
+  font-size: 22px;
+  color: rgba(41, 63, 227, 0.8);
+}
+.retrieval-page-button {
+  height: 38px;
+  width: 211px;
+  border-radius: 19px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 30.18px;
+  color: rgba(0, 0, 0, 0.53);
+  text-align: center;
+  vertical-align: top;
+}
+.search-container .ant-input-wrapper {
+  height: 70px;
+  width: 716px;
+}
+.search-container .ant-input {
+  height: 100%;
+  width: 640px;
+  font-size: 20px;
+  text-align: left;
+  border-radius: 35px 0 0 35px;
+  border: 2px #1677ff solid;
+  box-shadow: 0 3px 3px #c8c8c8;
+}
+.search-container .ant-input-group-addon {
+  height: 100%;
+  width: 76px;
+  border-radius: 0 30px 30px 0;
+  background-color: #1677ff;
+  box-shadow: 0 3px 3px #c8c8c8;
+}
+.search-container .anticon-search svg {
+  height: 2em;
+  width: 2em;
+}
+.search-container .ant-input-wrapper {
+  float: left;
+  text-align: center;
+}
+.search-after {
+  padding: 0 120px;
+}
+.search-after .table-container {
+  width: 100%;
+  height: 430px;
+  border-radius: 15px;
+  padding: 30px;
+}
+.search-after-search {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.search-after-search img {
+  width: 85px;
+  height: 72px;
+  margin-left: 20px;
+  margin-right: 55px;
+}
+.search-container-after .ant-input-wrapper {
+  height: 59px;
+  width: 1100px;
+}
+.search-container-after .ant-input {
+  height: 100%;
+  width: 1000px;
+  font-size: 15px;
+  text-align: left;
+  border-radius: 35px 0 0 35px;
+  border: 2px #1677ff solid;
+  box-shadow: 0 3px 3px #c8c8c8;
+}
+.search-container-after .ant-input-group-addon {
+  height: 100%;
+  width: 115px;
+  border-radius: 0 30px 30px 0;
+  background-color: #1677ff;
+  box-shadow: 0 3px 3px #c8c8c8;
+}
+.search-container-after .anticon-search svg {
+  height: 2em;
+  width: 2em;
+}
+.search-container-after .ant-input-wrapper {
+  float: left;
+  text-align: center;
+}
+.search-after-divider {
+  margin: 0 20px;
+}
+.table-title-user {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: Monospace;
+  line-height: 45.5px;
+  color: #2a82e4;
+  text-align: left;
+  vertical-align: top;
+  margin: 20px 50px;
+}
+.table-title-book {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: Monospace;
+  line-height: 45.5px;
+  color: #ff8d1a;
+  text-align: left;
+  vertical-align: top;
+  margin: 20px 50px;
+}
